@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TestPlayground
 {
-    class HackerRankDay8DictionaryPractice
+    class Dictionary
     {
         static void Main(string[] args)
         {
