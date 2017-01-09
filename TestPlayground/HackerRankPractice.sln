@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day18Queues", "Day18Queues\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19Interfaces", "Day19Interfaces\Day19Interfaces.csproj", "{B2468373-ED99-4B1D-AC26-C96C6D0B4131}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestBoatTrips", "ContestBoatTrips\ContestBoatTrips.csproj", "{1728901F-F660-4348-AA6B-F413E6EC73A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B2468373-ED99-4B1D-AC26-C96C6D0B4131}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2468373-ED99-4B1D-AC26-C96C6D0B4131}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2468373-ED99-4B1D-AC26-C96C6D0B4131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1728901F-F660-4348-AA6B-F413E6EC73A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1728901F-F660-4348-AA6B-F413E6EC73A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1728901F-F660-4348-AA6B-F413E6EC73A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1728901F-F660-4348-AA6B-F413E6EC73A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
