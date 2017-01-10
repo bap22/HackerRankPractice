@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day19Interfaces", "Day19Int
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestBoatTrips", "ContestBoatTrips\ContestBoatTrips.csproj", "{1728901F-F660-4348-AA6B-F413E6EC73A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contest2XOR", "Contest2XOR\Contest2XOR.csproj", "{342C949D-8CC7-4A72-AC2F-F602DA02A4E6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{1728901F-F660-4348-AA6B-F413E6EC73A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1728901F-F660-4348-AA6B-F413E6EC73A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1728901F-F660-4348-AA6B-F413E6EC73A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342C949D-8CC7-4A72-AC2F-F602DA02A4E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342C949D-8CC7-4A72-AC2F-F602DA02A4E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342C949D-8CC7-4A72-AC2F-F602DA02A4E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342C949D-8CC7-4A72-AC2F-F602DA02A4E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
