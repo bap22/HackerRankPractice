@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contest2XOR", "Contest2XOR\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20Sorting", "Day20Sorting\Day20Sorting.csproj", "{58EDA4CA-D95C-4167-BF99-4A2C6FADB099}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestLucky8", "ContestLucky8\ContestLucky8.csproj", "{FD50995C-2AC5-4725-A1AC-8B78B605B84C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{58EDA4CA-D95C-4167-BF99-4A2C6FADB099}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EDA4CA-D95C-4167-BF99-4A2C6FADB099}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58EDA4CA-D95C-4167-BF99-4A2C6FADB099}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
