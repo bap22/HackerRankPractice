@@ -16,54 +16,47 @@ namespace ContestLucky8
         static void Main(string[] args)
         {
             int n = Convert.ToInt32(Console.ReadLine());
-            int count = 0;
             string number = Console.ReadLine();
             double xmod = Math.Pow(10, 9) + 7;
-            List<int> div8 = GetPermutationsDiv8<int>(number, number.Length);
+            List<int> div8 = GetPermutationsDiv8<int>(number, n);
             Console.WriteLine(div8.Count % xmod);
-            Console.ReadLine();
         }
-        // Print out the permutations of the input 
 
 
-        static List<int> GetPermutationsDiv8<T>(IEnumerable<char> input, int count)
+        static List<int> GetPermutationsDiv8<T>(string input, int count)
         {
             List<int> returnList = new List<int>();
-            List<int> theList = new List<int>();
-            for(int z=1; z <= count; z++)
+            List<int> subsets = new List<int>();
+
+            // Loop over individual elements
+            for (int i = 1; i < count; i++)
             {
-                theList = GenerateWordCombinations(input);
+                subsets.Add(input[i - 1]);
+
+                List<int> newSubsets = new List<int>();
+
+                // Loop over existing subsets
+                for (int j = 0; j < subsets.Count; j++)
+                {
+                    int newSubset = int.Parse(subsets[j].ToString() + input[i].ToString());
+                    newSubsets.Add(newSubset);
+                }
+
+                subsets.AddRange(newSubsets);
             }
-            foreach (int permutation in theList)
+
+            // Add in the last element
+            subsets.Add(input[count - 1]);
+
+            foreach (int permutation in subsets)
             {
+                //int permutation = Convert.ToInt32(p);
                 if (permutation%8 == 0)
                 {
                     returnList.Add(permutation);
                 }
             }
             return returnList;
-        }
-        //TODO: this isn't handling skipping numbers appropriately
-
-        static public List<int> GenerateWordCombinations(IEnumerable<char> inputWords)
-        {
-            List<int> returnList = new List<int>();
-            GenerateWordCombinations(inputWords, returnList);
-            return returnList;
-        }
-
-        static private void GenerateWordCombinations(IEnumerable<char> words, IList<int> combinations)
-        {
-            if (words.Count() == 0)
-            {
-                return;
-            }
-
-            foreach (var word in words)
-            {
-                GenerateWordCombinations(words.Where(x => x != word), combinations);
-                combinations.Add(word);
-            }
         }
     }
 }

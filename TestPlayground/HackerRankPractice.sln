@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8Dictionary", "TestPlayground\Day8Dictionary.csproj", "{F535C355-ED1D-4431-82E1-46AF2F8799B5}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20Sorting", "Day20Sorting\Day20Sorting.csproj", "{58EDA4CA-D95C-4167-BF99-4A2C6FADB099}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestLucky8", "ContestLucky8\ContestLucky8.csproj", "{FD50995C-2AC5-4725-A1AC-8B78B605B84C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20Generics", "Day20Generics\Day20Generics.csproj", "{064B4E07-5E6C-4A92-B3B4-E47BA713528F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
