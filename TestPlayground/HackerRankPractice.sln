@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestLucky8", "ContestLuc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20Generics", "Day20Generics\Day20Generics.csproj", "{064B4E07-5E6C-4A92-B3B4-E47BA713528F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day22BinarySearchTree", "Day22BinarySearchTree\Day22BinarySearchTree.csproj", "{ECAD0ED9-8345-41DC-A612-897F3005B55C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAD0ED9-8345-41DC-A612-897F3005B55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAD0ED9-8345-41DC-A612-897F3005B55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAD0ED9-8345-41DC-A612-897F3005B55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAD0ED9-8345-41DC-A612-897F3005B55C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
