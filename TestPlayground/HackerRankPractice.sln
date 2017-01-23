@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20Sorting", "Day20Sortin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContestLucky8", "ContestLucky8\ContestLucky8.csproj", "{FD50995C-2AC5-4725-A1AC-8B78B605B84C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day24MoreLinkedLists", "Day24MoreLinkedLists\Day24MoreLinkedLists.csproj", "{7C8EBE99-6495-49FD-8FC3-078EF2F05D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day25RunningTime", "Day25RunningTime\Day25RunningTime.csproj", "{ECFEC13E-5130-4925-BBA2-5B8B5DEA88BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C8EBE99-6495-49FD-8FC3-078EF2F05D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C8EBE99-6495-49FD-8FC3-078EF2F05D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C8EBE99-6495-49FD-8FC3-078EF2F05D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C8EBE99-6495-49FD-8FC3-078EF2F05D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFEC13E-5130-4925-BBA2-5B8B5DEA88BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFEC13E-5130-4925-BBA2-5B8B5DEA88BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFEC13E-5130-4925-BBA2-5B8B5DEA88BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFEC13E-5130-4925-BBA2-5B8B5DEA88BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
