@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day8Dictionary", "TestPlayground\Day8Dictionary.csproj", "{F535C355-ED1D-4431-82E1-46AF2F8799B5}"
 EndProject
@@ -36,6 +36,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day24MoreLinkedLists", "Day24MoreLinkedLists\Day24MoreLinkedLists.csproj", "{7C8EBE99-6495-49FD-8FC3-078EF2F05D92}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day25RunningTime", "Day25RunningTime\Day25RunningTime.csproj", "{ECFEC13E-5130-4925-BBA2-5B8B5DEA88BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day20Generics", "Day20Generics\Day20Generics.csproj", "{064B4E07-5E6C-4A92-B3B4-E47BA713528F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day22BinarySearchTree", "Day22BinarySearchTree\Day22BinarySearchTree.csproj", "{ECAD0ED9-8345-41DC-A612-897F3005B55C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +107,14 @@ Global
 		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD50995C-2AC5-4725-A1AC-8B78B605B84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064B4E07-5E6C-4A92-B3B4-E47BA713528F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAD0ED9-8345-41DC-A612-897F3005B55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAD0ED9-8345-41DC-A612-897F3005B55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAD0ED9-8345-41DC-A612-897F3005B55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAD0ED9-8345-41DC-A612-897F3005B55C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7C8EBE99-6495-49FD-8FC3-078EF2F05D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7C8EBE99-6495-49FD-8FC3-078EF2F05D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7C8EBE99-6495-49FD-8FC3-078EF2F05D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
