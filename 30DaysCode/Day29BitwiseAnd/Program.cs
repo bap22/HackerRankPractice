@@ -15,11 +15,31 @@ namespace Day29BitwiseAnd
         static void Main(String[] args)
         {
             int t = Convert.ToInt32(Console.ReadLine());
+            var answers = new List<int>();
             for (int a0 = 0; a0 < t; a0++)
             {
                 string[] tokens_n = Console.ReadLine().Split(' ');
                 int n = Convert.ToInt32(tokens_n[0]);
                 int k = Convert.ToInt32(tokens_n[1]);
+
+                //start at first # in string, iterate up to n
+                int maxBitwiseAnd = 0;
+                for (int place = 1; place <= n; place++)
+                {
+                    for (int nextPlace = place + 1; nextPlace <= n; nextPlace++)
+                    {
+                        var bitwise = place & nextPlace;
+                        if (bitwise > maxBitwiseAnd && bitwise < k)
+                        {
+                            maxBitwiseAnd = bitwise;
+                        }
+                    }
+                }
+                answers.Add(maxBitwiseAnd);
+            }
+            foreach (int answer in answers)
+            {
+                Console.WriteLine(answer);
             }
         }
     }
