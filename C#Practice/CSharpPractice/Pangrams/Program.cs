@@ -14,10 +14,11 @@ namespace Pangrams
 
             foreach (var str in strings)
             {
-                bool[] hashTable = new bool[26];
+                bool[] hashTable = new bool[27];
+                hashTable[0] = true;
                 foreach (char c in str)
                 {
-                    if (c == ' ') continue;
+                    if (c == ' ') continue; //string will be an alpha char or space
                     int alphabetPosition = (int)char.ToUpper(c) - 64; //looked up char to alphabet interger conversion.
                     hashTable[alphabetPosition] = true;
                 }
